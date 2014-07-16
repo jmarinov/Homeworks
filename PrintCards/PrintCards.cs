@@ -32,7 +32,7 @@ class PrintCards
                     break;
                     
                 default:
-                   Console.WriteLine("{0,2}{1} {0,2}{2} {0,2}{3} {0,2}{4}", cards, club, diamond, hearth, spade);
+                   Console.WriteLine("{0,2}{1} {0,2}{2} {0,2}{3} {0,2}{4}", (char)cards, club, diamond, hearth, spade);
                     break;
             }
          }     
